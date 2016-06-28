@@ -1,0 +1,15 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "microservice detecting file metadata",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JiashuLiu",
+  "license": "MIT",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "multer": "^1.1.0"
+  }
+}
