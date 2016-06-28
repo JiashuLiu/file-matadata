@@ -7,7 +7,7 @@ app.set('port', process.env.PORT || 3000);
 app.use(express.static(path.join(__dirname, 'public')));
 var storage = multer.diskStorage({
   destination: function(req, file, callback) {
-    callback(null, './uploads');
+    callback(null, './');
   },
   filename: function(req, file, callback) {
     callback(null, file.fieldname + '-' + Date.now());
